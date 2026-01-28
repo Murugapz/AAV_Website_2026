@@ -1,5 +1,7 @@
+
 import React, { useRef, useEffect, useState } from 'react';
 import * as THREE from 'three';
+import type * as CSS from 'csstype';
 
 interface LightPillarProps {
   topColor?: string;
@@ -12,7 +14,7 @@ interface LightPillarProps {
   pillarWidth?: number;
   pillarHeight?: number;
   noiseIntensity?: number;
-  mixBlendMode?: React.CSSProperties['mixBlendMode'];
+  mixBlendMode?: CSS.Property.MixBlendMode;
   pillarRotation?: number;
 }
 
