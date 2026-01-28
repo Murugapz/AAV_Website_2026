@@ -9,6 +9,7 @@ interface CarouselItem {
   image: string;
   title: string;
   description: string;
+  subtitle?: string;
 }
 
 function TypingCaption() {
