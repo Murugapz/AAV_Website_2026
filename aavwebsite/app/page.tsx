@@ -5,6 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
 
+interface CarouselItem {
+  image: string;
+  title: string;
+  description: string;
+}
+
 function TypingCaption() {
   const captions = [
     "The Team of Next-Gen Engineers",
