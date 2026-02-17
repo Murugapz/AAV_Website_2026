@@ -269,7 +269,7 @@ export default function Home() {
         <div className="w-full mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <Link
-              href="/asv"
+              href="/asv/1"
               className="group relative min-h-[350px] md:min-h-[450px] flex flex-col justify-center items-start p-8 md:p-12 overflow-hidden cursor-pointer"
             >
               <Image
@@ -295,7 +295,7 @@ export default function Home() {
               </div>
             </Link>
             <Link
-              href="/uav"
+              href="/uav/1"
               className="group relative min-h-[350px] md:min-h-[450px] flex flex-col justify-center items-start p-8 md:p-12 overflow-hidden cursor-pointer"
             >
               <Image
@@ -373,7 +373,7 @@ export default function Home() {
               </div>
             </Link>
             <Link
-              href="/sponsors"
+              href="/sponsors/2024"
               className="group relative min-h-[350px] md:min-h-[450px] flex flex-col justify-center items-start p-8 md:p-12 overflow-hidden cursor-pointer"
             >
               <Image

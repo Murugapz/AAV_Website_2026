@@ -97,17 +97,6 @@ export default function Sponsors2024Page() {
                 <p>
                   Each contribution, regardless of its size or form, plays a pivotal role in advancing our project and helping us navigate the course ahead. If you are interested in joining us as a sponsor and supporting the future of maritime autonomy, we would be delighted to hear from you. Please feel free to reach out to us at:
                 </p>
-                <div className="pt-4">
-                  <a
-                    href="mailto:contact@ntuarchimedes.org"
-                    className="inline-flex items-center gap-2 text-[#3652A4] hover:text-[#4a6bc7] transition-colors font-semibold text-lg"
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                    contact@ntuarchimedes.org
-                  </a>
-                </div>
               </div>
             </div>
           </div>
